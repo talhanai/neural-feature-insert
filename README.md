@@ -11,7 +11,7 @@ The script uses the Keras toolkit with the tensorflow back-end.
 The idea is to model MNIST digits using both the raw information (pixels), as well as features capturing an abstraction, the concept of even/odd and the concept of relative size (greater than), and then to evaluate where these features should be introduced into a network to optimize modeling of the underlying digit. (Given that this is MNIST, results are already super high > 99%, so take this as a toy example, and not something significant to interpret)
 
 <p align="center">
-  <img src="https://github.com/talhanai/neural-feature-insert/blob/master/insert.png" width="350"/>
+  <img src="https://github.com/talhanai/neural-feature-insert/blob/master/insert2.png" width="550"/>
 </p>
 
 ### References
