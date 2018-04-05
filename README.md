@@ -1,5 +1,5 @@
 # neural-feature-insert
-**mnist_mlp_insert.py** is a script that shows how to model a feedforward neural network with features inserted at different layers. The code was adapted from [this example](https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py). The code utilizes the MNIST dataset, and evaluates neural networks with three features sets. 
+**mnist_mlp_insert.py** is a script that shows how to model a feedforward neural network with features inserted at different layers. The code was adapted from [this example](https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py). The code utilizes the MNIST dataset, a feedforward network with 2 layers, and evaluates the network with three features sets. 
 
 1. **Raw** features. The standard 784 dimension vector per image.
 2. **Even** feature, which is a binary value indicating if the number is even or not.
@@ -9,6 +9,8 @@ The script uses the Keras toolkit with the tensorflow back-end.
 
 ### Concept
 The idea is to model MNIST digits using both the raw information (pixels), as well as features capturing an abstraction, the concept of even/odd and the concept of relative size (greater than), and then to evaluate where these features should be introduced into a network to optimize modeling of the underlying digit. (Given that this is MNIST, results are already super high > 99%, so take this as a toy example, and not something significant to interpret)
+
+![alt-text](https://github.com/talhanai/neural-feature-insert/blob/master/insert.png)
 
 ### References
 
