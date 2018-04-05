@@ -1,4 +1,4 @@
-# neural-feature-insert
+# Feature Insertion into Different Neural Network Layers
 **mnist_mlp_insert.py** is a script that shows how to model a feedforward neural network with features inserted at different layers. The code was adapted from [this example](https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py). The code utilizes the MNIST dataset, a feedforward network with 2 layers, and evaluates the network with three features sets. 
 
 1. **Raw** features. The standard 784 dimension vector per image.
