@@ -11,7 +11,7 @@ The script uses the Keras toolkit with the tensorflow back-end.
 
 ### References
 
-A version of this concept and optimization paradigm was explored here (and originally implemented in MATLAB):
+A version of this concept and optimization paradigm was explored here to model the emotional state of individuals engaged in a conversation, and with features from audio, text, and physiologic modalities. (This was originally implemented in MATLAB):
 
 ```
 @inproceedings{alhanai2017predicting,
