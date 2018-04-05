@@ -5,7 +5,7 @@
 2. **Even** feature, which is a binary value indicating if the number is even or not.
 3. **Greater than or equal to 5** feature, which is a binary feature indicating if the number is greater than or equal to 5 or not.
 
-The idea is to model MNIST digits using both the raw information (pixels), as well as features capturing an abstraction, the concept of even/odd and the concept of relative size (greater than), and then to evaluate where these features should be introduced into a network to optimize modeling of the underlying digit.
+The idea is to model MNIST digits using both the raw information (pixels), as well as features capturing an abstraction, the concept of even/odd and the concept of relative size (greater than), and then to evaluate where these features should be introduced into a network to optimize modeling of the underlying digit. (Given that this is MNIST, results are already super high > 99%, so take this as a toy example, and not something significant to interpret)
 
 The script uses the Keras toolkit with the tensorflow back-end.
 
