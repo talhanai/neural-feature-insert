@@ -14,9 +14,9 @@ The idea is to model MNIST digits using both the raw information (pixels), as we
   <img src="https://github.com/talhanai/neural-feature-insert/blob/master/insert2.png" width="750"/>
 </p>
 
-### References
+### Reference
 
-A version of this concept and optimization paradigm was explored here to model the emotional state of individuals engaged in a conversation, and with features from audio, text, and physiologic modalities. (This was originally implemented in MATLAB):
+A version of this concept and optimization paradigm was explored [in this paper](https://groups.csail.mit.edu/sls/publications/2017/TukaAlHanai_aaai-17.pdf) to model the emotional state of individuals engaged in a conversation, and with features from audio, text, and physiologic modalities. (This was originally implemented in MATLAB):
 
 ```
 @inproceedings{alhanai2017predicting,
