@@ -13,7 +13,6 @@ The idea is to model MNIST digits using both the raw information (pixels), as we
 <p align="center">
   <img src="https://github.com/talhanai/neural-feature-insert/blob/master/insert.png" width="350"/>
 </p>
-![alt-text](https://github.com/talhanai/neural-feature-insert/blob/master/insert.png)
 
 ### References
 
